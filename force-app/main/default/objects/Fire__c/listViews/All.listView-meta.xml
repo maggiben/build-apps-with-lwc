@@ -3,7 +3,6 @@
     <fullName>All</fullName>
     <columns>NAME</columns>
     <columns>Age__c</columns>
-    <columns>Sex__c</columns>
     <columns>Radius__c</columns>
     <columns>Supervisor__c</columns>
     <filterScope>Everything</filterScope>

@@ -36,11 +36,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Fire__c.Sex__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Fire__c.Radius__c</field>
         <readable>true</readable>
     </fieldPermissions>

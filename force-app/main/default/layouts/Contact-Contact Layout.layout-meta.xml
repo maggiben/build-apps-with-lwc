@@ -198,7 +198,6 @@
     <relatedLists>
         <fields>NAME</fields>
         <fields>Age__c</fields>
-        <fields>Sex__c</fields>
         <fields>Radius__c</fields>
         <relatedList>Fire__c.Supervisor__c</relatedList>
     </relatedLists>
