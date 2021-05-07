@@ -10,7 +10,7 @@
             "Salutation": "Ms.",
             "Title": "Junior Ranger",
             "Phone": "(987) 654-3210",
-            "Email": "clemence.silvae@ursus-sample.com"
+            "Email": "clemence.silvae@yosemite-sample.com"
         },
         {
             "attributes": {
@@ -22,7 +22,7 @@
             "Salutation": "Mr.",
             "Title": "Head Ranger",
             "Phone": "(123) 456-6789",
-            "Email": "victor.faunust@ursus-sample.com"
+            "Email": "victor.faunust@yosemite-sample.com"
         },
         {
             "attributes": {
@@ -34,7 +34,7 @@
             "Salutation": "Mr.",
             "Title": "Ranger",
             "Phone": "(123) 456-6788",
-            "Email": "joe.smith@ursus-sample.com"
+            "Email": "joe.smith@yosemite-sample.com"
         }
     ]
 }

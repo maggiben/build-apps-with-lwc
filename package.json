@@ -2,7 +2,7 @@
     "name": "build-apps-with-lwc",
     "private": true,
     "version": "1.0.0",
-    "description": "Ursus Park sample app for Trailhead project Build Flexible Apps with Lightning Web Components",
+    "description": "Yosemite Park sample app for Trailhead project Build Flexible Apps with Lightning Web Components",
     "engines": {
         "node": ">= 10.13.0",
         "npm": ">= 6.5.0"
