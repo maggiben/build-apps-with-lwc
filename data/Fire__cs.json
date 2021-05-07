@@ -2,8 +2,8 @@
     "records": [
         {
             "attributes": {
-                "type": "Bear__c",
-                "referenceId": "Bear__cRef1"
+                "type": "Fire__c",
+                "referenceId": "Fire__cRef1"
             },
             "Name": "Cindy",
             "Birthdate__c": "2013-12-23",
@@ -12,13 +12,13 @@
             "Weight__c": 269,
             "Location__Latitude__s": 45.34276,
             "Location__Longitude__s": 5.72715,
-            "Observations__c": "Lovely bear",
+            "Observations__c": "Lovely Fire",
             "Supervisor__c": "@ContactRef1"
         },
         {
             "attributes": {
-                "type": "Bear__c",
-                "referenceId": "Bear__cRef2"
+                "type": "Fire__c",
+                "referenceId": "Fire__cRef2"
             },
             "Name": "Little John",
             "Birthdate__c": "2005-07-18",
@@ -32,8 +32,8 @@
         },
         {
             "attributes": {
-                "type": "Bear__c",
-                "referenceId": "Bear__cRef3"
+                "type": "Fire__c",
+                "referenceId": "Fire__cRef3"
             },
             "Name": "Winnie",
             "Birthdate__c": "2014-05-06",
@@ -47,8 +47,8 @@
         },
         {
             "attributes": {
-                "type": "Bear__c",
-                "referenceId": "Bear__cRef4"
+                "type": "Fire__c",
+                "referenceId": "Fire__cRef4"
             },
             "Name": "Flippy",
             "Birthdate__c": "2003-12-03",
@@ -62,8 +62,8 @@
         },
         {
             "attributes": {
-                "type": "Bear__c",
-                "referenceId": "Bear__cRef5"
+                "type": "Fire__c",
+                "referenceId": "Fire__cRef5"
             },
             "Name": "Oxsana",
             "Birthdate__c": "2006-05-17",
@@ -77,8 +77,8 @@
         },
         {
             "attributes": {
-                "type": "Bear__c",
-                "referenceId": "Bear__cRef6"
+                "type": "Fire__c",
+                "referenceId": "Fire__cRef6"
             },
             "Name": "Baloo",
             "Birthdate__c": "2001-11-19",
@@ -92,8 +92,8 @@
         },
         {
             "attributes": {
-                "type": "Bear__c",
-                "referenceId": "Bear__cRef7"
+                "type": "Fire__c",
+                "referenceId": "Fire__cRef7"
             },
             "Name": "Ulfsaar",
             "Birthdate__c": "2011-01-08",
@@ -107,8 +107,8 @@
         },
         {
             "attributes": {
-                "type": "Bear__c",
-                "referenceId": "Bear__cRef8"
+                "type": "Fire__c",
+                "referenceId": "Fire__cRef8"
             },
             "Name": "Po Ping",
             "Birthdate__c": "2004-10-04",
@@ -122,8 +122,8 @@
         },
         {
             "attributes": {
-                "type": "Bear__c",
-                "referenceId": "Bear__cRef9"
+                "type": "Fire__c",
+                "referenceId": "Fire__cRef9"
             },
             "Name": "Ungnyeo",
             "Birthdate__c": "2003-06-27",
@@ -137,8 +137,8 @@
         },
         {
             "attributes": {
-                "type": "Bear__c",
-                "referenceId": "Bear__cRef10"
+                "type": "Fire__c",
+                "referenceId": "Fire__cRef10"
             },
             "Name": "Ted",
             "Birthdate__c": "2011-02-04",
@@ -147,7 +147,7 @@
             "Weight__c": 279,
             "Location__Latitude__s": 45.332761,
             "Location__Longitude__s": 5.717158,
-            "Observations__c": "Bear with attitude",
+            "Observations__c": "Fire with attitude",
             "Supervisor__c": "@ContactRef3"
         }
     ]

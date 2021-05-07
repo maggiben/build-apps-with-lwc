@@ -48,13 +48,13 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Bear</label>
+    <label>Fire</label>
     <nameField>
-        <label>Bear Name</label>
+        <label>Fire Name</label>
         <trackFeedHistory>true</trackFeedHistory>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Bears</pluralLabel>
+    <pluralLabel>Fires</pluralLabel>
     <searchLayouts>
         <customTabListAdditionalFields>Age__c</customTabListAdditionalFields>
         <customTabListAdditionalFields>Sex__c</customTabListAdditionalFields>

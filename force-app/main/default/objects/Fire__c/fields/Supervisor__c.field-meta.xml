@@ -4,8 +4,8 @@
     <externalId>false</externalId>
     <label>Supervisor</label>
     <referenceTo>Contact</referenceTo>
-    <relationshipLabel>Bears</relationshipLabel>
-    <relationshipName>Bears</relationshipName>
+    <relationshipLabel>Fires</relationshipLabel>
+    <relationshipName>Fires</relationshipName>
     <relationshipOrder>0</relationshipOrder>
     <reparentableMasterDetail>true</reparentableMasterDetail>
     <trackFeedHistory>false</trackFeedHistory>

@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
-        <application>Ursus_Park</application>
+        <application>Yosemite_Park</application>
         <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
-        <apexClass>BearController</apexClass>
+        <apexClass>FireController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <description>User permissions for Ursus Park App</description>
+    <description>User permissions for Yosemite Park App</description>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Bear__c.Age__c</field>
+        <field>Fire__c.Age__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Bear__c.Birthdate__c</field>
+        <field>Fire__c.Birthdate__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Bear__c.Height__c</field>
+        <field>Fire__c.Height__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Bear__c.Location__c</field>
+        <field>Fire__c.Location__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Bear__c.Observations__c</field>
+        <field>Fire__c.Observations__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Bear__c.Sex__c</field>
+        <field>Fire__c.Sex__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Bear__c.Weight__c</field>
+        <field>Fire__c.Weight__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -150,14 +150,14 @@
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>Ursus Park User</label>
+    <label>Yosemite Park User</label>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Bear__c</object>
+        <object>Fire__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -170,7 +170,7 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <tabSettings>
-        <tab>Bear__c</tab>
+        <tab>Fire__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
 </PermissionSet>
