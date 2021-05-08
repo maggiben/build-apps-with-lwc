@@ -7,8 +7,9 @@ public with sharing class FireController {
                 Name,
                 Age__c,
                 Radius__c,
+                Temperature__c,
+                Humidity__c,
                 Height__c,
-                Weight__c,
                 Location__Latitude__s,
                 Location__Longitude__s,
                 Supervisor__r.Name
@@ -34,8 +35,9 @@ public with sharing class FireController {
                 Name,
                 Age__c,
                 Radius__c,
+                Temperature__c,
+                Humidity__c,
                 Height__c,
-                Weight__c,
                 Location__Latitude__s,
                 Location__Longitude__s,
                 Supervisor__r.Name

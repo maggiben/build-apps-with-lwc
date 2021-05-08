@@ -41,7 +41,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Fire__c.Weight__c</field>
+        <field>Fire__c.Temperature__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fire__c.Humidity__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
