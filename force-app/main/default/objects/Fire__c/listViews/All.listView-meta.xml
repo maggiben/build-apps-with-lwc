@@ -3,7 +3,6 @@
     <fullName>All</fullName>
     <columns>NAME</columns>
     <columns>Age__c</columns>
-    <columns>Duration__c</columns>
     <columns>StartDateTime__c</columns>
     <columns>FinishDateTime__c</columns>
     <columns>Radius__c</columns>
