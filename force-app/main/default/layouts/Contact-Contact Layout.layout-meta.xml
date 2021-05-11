@@ -198,6 +198,7 @@
     <relatedLists>
         <fields>NAME</fields>
         <fields>Age__c</fields>
+        <fields>Duration__c</fields>
         <fields>Radius__c</fields>
         <fields>Temperature__c</fields>
         <fields>Humidity__c</fields>
