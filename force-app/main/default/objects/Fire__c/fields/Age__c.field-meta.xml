@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Age__c</fullName>
-    <description>Calculates age in days</description>
+    <description>Calculates age in years</description>
     <externalId>false</externalId>
-    <formula>IF( NOT( ISBLANK( Startdate__c ) ) ,
-  IF( DATE( 2000 , MONTH( Startdate__c ) , DAY( Startdate__c ) ) &lt;= DATE( 2000 , MONTH( TODAY() ) , DAY( TODAY() ) ),
-      DAY (Today()) - DAY ( IF( NOT( ISBLANK( Stopdate__c ) ), Stopdate__c ), Startdate__c ),
-      DAY (Today()) - DAY ( IF( NOT( ISBLANK( Stopdate__c ) ), Stopdate__c ), Startdate__c ) -1 ),
+    <formula>IF( NOT( ISBLANK( StartDateTime__c ) ) ,
+  IF( DATE( 2000 , MONTH( StartDateTime__c ) , DAY( StartDateTime__c ) ) &lt;= DATE( 2000 , MONTH( TODAY() ) , DAY( TODAY() ) ),
+     YEAR (Today()) - YEAR ( StartDateTime__c ),
+     YEAR (Today()) - YEAR ( StartDateTime__c ) -1 ),
   null)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Age</label>

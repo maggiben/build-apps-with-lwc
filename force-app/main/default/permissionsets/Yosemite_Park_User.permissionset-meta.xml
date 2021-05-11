@@ -16,7 +16,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Fire__c.Startdate__c</field>
+        <field>Fire__c.StartDateTime__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fire__c.FinishDateTime__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
