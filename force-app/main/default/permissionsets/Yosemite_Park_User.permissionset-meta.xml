@@ -16,12 +16,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Fire__c.Birthdate__c</field>
+        <field>Fire__c.Startdate__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Fire__c.Height__c</field>
+        <field>Fire__c.Altitude__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fire__c.WindSpeed__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fire__c.WindDirection__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

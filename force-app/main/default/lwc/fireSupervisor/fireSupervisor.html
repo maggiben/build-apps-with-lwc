@@ -1,0 +1,20 @@
+<template>
+	<lightning-card title="Supervisor" icon-name="standard:people">
+		<div class="slds-var-m-around_medium">
+			<!-- Show supervisor when fire is loaded -->
+			<template if:true={fire.data}>
+				<lightning-record-form
+					object-api-name="Contact"
+					record-id={supervisorId}
+					layout-type="Compact">
+				</lightning-record-form>
+			</template>
+			<!-- Data failed to load -->
+			<template if:true={fire.error}>
+				<div class="slds-text-color_error">
+					An error occurred while loading the fire record
+				</div>
+			</template>
+		</div>
+	</lightning-card>
+</template>

@@ -9,7 +9,9 @@ public with sharing class FireController {
                 Radius__c,
                 Temperature__c,
                 Humidity__c,
-                Height__c,
+                Altitude__c,
+                WindSpeed__c,
+                WindDirection__c,
                 Location__Latitude__s,
                 Location__Longitude__s,
                 Supervisor__r.Name
@@ -37,7 +39,9 @@ public with sharing class FireController {
                 Radius__c,
                 Temperature__c,
                 Humidity__c,
-                Height__c,
+                Altitude__c,
+                WindSpeed__c,
+                WindDirection__c,
                 Location__Latitude__s,
                 Location__Longitude__s,
                 Supervisor__r.Name
