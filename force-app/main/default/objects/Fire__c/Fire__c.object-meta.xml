@@ -57,10 +57,14 @@
     <pluralLabel>Fires</pluralLabel>
     <searchLayouts>
         <customTabListAdditionalFields>Age__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Sex__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Radius__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Temperature__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Humidity__c</customTabListAdditionalFields>
         <customTabListAdditionalFields>Supervisor__c</customTabListAdditionalFields>
         <searchResultsAdditionalFields>Age__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Sex__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Radius__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Temperature__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Humidity__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Supervisor__c</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>

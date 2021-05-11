@@ -3,10 +3,10 @@
     <fullName>Age__c</fullName>
     <description>Calculates age in years</description>
     <externalId>false</externalId>
-    <formula>IF( NOT( ISBLANK( Birthdate__c ) ) ,
-  IF( DATE( 2000 , MONTH( Birthdate__c ) , DAY( Birthdate__c ) ) &lt;= DATE( 2000 , MONTH( TODAY() ) , DAY( TODAY() ) ),
-     YEAR (Today()) - YEAR ( Birthdate__c ),
-     YEAR (Today()) - YEAR ( Birthdate__c ) -1 ),
+    <formula>IF( NOT( ISBLANK( StartDateTime__c ) ) ,
+  IF( DATE( 2000 , MONTH( StartDateTime__c ) , DAY( StartDateTime__c ) ) &lt;= DATE( 2000 , MONTH( TODAY() ) , DAY( TODAY() ) ),
+     YEAR (Today()) - YEAR ( StartDateTime__c ),
+     YEAR (Today()) - YEAR ( StartDateTime__c ) -1 ),
   null)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Age</label>

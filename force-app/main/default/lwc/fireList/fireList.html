@@ -1,0 +1,37 @@
+<template>
+	<lightning-card title="Fires" icon-name="utility:warning">
+		<div class="slds-card__body_inner">
+			<!-- Start fire list -->
+			<template if:true={fires.data}>
+				<lightning-input type="search"
+					onchange={handleSearchTermChange}
+					variant="label-hidden"
+					class="slds-var-m-bottom_small"
+					label="Search"
+					placeholder="Search for fires"
+					value={searchTerm}>
+				</lightning-input>
+				<lightning-layout multiple-rows="true" pull-to-boundary="small">
+					<template for:each={fires.data} for:item="fire">
+						<lightning-layout-item key={fire.Id} size="3" class="slds-var-p-around_x-small">
+							<c-fire-tile fire={fire} onfireview={handleFireView}></c-fire-tile>
+						</lightning-layout-item>
+					</template>
+				</lightning-layout>
+				<!-- No fires found -->
+				<template if:false={hasResults}>
+					<div class="slds-align_absolute-center slds-var-m-vertical_small">
+						We did not find results...
+					</div>
+				</template>
+			</template>
+			<!-- End fire list -->
+			<!-- Data failed to load -->
+			<template if:true={fires.error}>
+				<div class="slds-text-color_error">
+					An error occurred while loading the fire list
+				</div>
+			</template>
+		</div>
+	</lightning-card>
+</template>
